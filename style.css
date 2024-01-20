@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*{
+    background-color: black;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:white;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+    padding:30px 0 0 20px;
+}
+
+.header{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+
+.gameButton{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0, 119, 255);
+    cursor:pointer;
+}
+
+i{
+    font-size:30px;
+    cursor: pointer;
+}
+
+.bodygamepart{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+
+.buttons{
+    display: flex;
+    gap:20px;
+}
+
+
+.scoreborad{
+    display:flex;
+    gap:30px;
+    align-items: center;
+}
+
+.scorearea{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    display:flex;
+    gap:15px;
+}
+
+#messagedisplay{
+    border-style: dashed;
+    width: 260px;
+    height:30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#myScore, #computerScore{
+    border: 1px solid;
+    width:30px;
+    padding-top: 2px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.reset{
+    width:90px;
+    height:30px;
+    background-color: rgb(0, 68, 255);
+    border-style: none;
+    border-radius: 10px;
+}
+

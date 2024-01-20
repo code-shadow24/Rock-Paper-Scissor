@@ -11,14 +11,18 @@
 .container{
     display:flex;
     flex-direction: column;
-    gap:40px;
+    gap:70px;
     padding:30px 0 0 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
 }
 
 .header{
     font-family: 'Playfair Display', serif;
     font-size: 30px;
     letter-spacing: 1.5px;
+    padding-left: 13px;
 }
 
 .gameButton{
@@ -39,12 +43,13 @@ i{
 .bodygamepart{
     display: flex;
     flex-direction: column;
-    gap:40px;
+    gap:60px;
 }
 
 .buttons{
     display: flex;
     gap:20px;
+    padding-left: 105px;
 }
 
 
